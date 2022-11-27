@@ -40,8 +40,8 @@ public class AbstractMain implements ExceptionsReporter {
 
     static final String REMOTE_URL = "http://localhost:8585";
     static final String BASE_URL = "https://api.testproject.io/v2";
-    static final String SDK_TOKEN = "yIOZaAjDZdjo50I8aPFTFvydqoOWk6_yTHUJJR1usPg1";
-    static final String ACCESS_KEY = "fFZ75ZV0lo7M88vY6oYSm7Ffmi2mY6eCUgn74Bnl9Qg1";
+    static final String SDK_TOKEN = "YOUR TOKEN";
+    static final String ACCESS_KEY = "YOUR ";
 
     public void launchSafariBrowser() throws MalformedURLException {
         driver = new DriverBuilder<SafariDriver>(new SafariOptions())
